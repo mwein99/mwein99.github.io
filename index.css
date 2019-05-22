@@ -1,0 +1,40 @@
+:root {
+    --blue: #1e1b31;
+    --gray-blue: #757090;
+    --light-blue: #211f38;
+    --purple: #6F66BA;
+}
+
+h1 {
+    margin-top: 0;
+    color: white;
+}
+
+.icons i {
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+b {
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);
+    font-family: 'Karla', sans-serif;
+    color: var(--gray-blue);
+}
+
+.hero {
+    max-width: 700px;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 100px;
+}

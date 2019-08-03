@@ -1,8 +1,9 @@
 :root {
     --blue: #1e1b31;
-    --gray-blue: #8d85b5;
+    --gray-blue: #747195;
     --light-blue: #211f38;
-    --purple: #6F66BA;
+    --purple: rgb(73, 64, 155);
+    --dark-purple: #6F66BA;
 }
 
 h1 {

@@ -47,7 +47,3 @@ html, body {
     height: 100%;
     padding-top: 100px;
 }
-
-p {
-    z-index: 1;
-}

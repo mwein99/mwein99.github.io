@@ -1,43 +1,53 @@
 :root {
+    --white: #ffffff;
+    --white-dark: #e6e6e6c9;
     --black: #101115;
-    --gray: #ffffff2b;
-    --purple: #9c51ffbf;
+    --purple: #8a36f8;
 }
 
-h1 {
-    margin-top: 0;
-    background: -webkit-linear-gradient(45deg, #7f00ff, #e100ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.icons i {
-    font-size: 16px;
-    color: var(--gray);
-    transition: .3s all;
-}
-.icons i:hover {
-    color: #eee;
-    transition: .3s all;
-}
-.icons a { margin-right: 4px; }
-
-a { text-decoration: none; }
-
-b {
-    font-weight: 700;
-    background: -webkit-linear-gradient(45deg, #7f00ff, #e100ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: var(--black);
-    font-family: 'Karla', sans-serif;
-    color: var(--gray);
+    font-family: 'Roboto', sans-serif;
+    color: var(--white-dark);
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 900 !important;
+    letter-spacing: 1px;
+}
+
+
+.wide {
+    letter-spacing: 4px;
+    color: var(--purple);
+}
+
+.dot {
+    margin: 0px 7px;
+    color: var(--purple);
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.section > h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--white);
+}
+
+a { text-decoration: none; }
+
+b {
+    font-weight: 700;
+    color: var(--white);
 }
 
 .hero {

@@ -13,12 +13,15 @@ html, body {
     color: var(--white-dark);
 }
 
+a {
+    color: var(--white);
+}
+
 h1 {
     color: var(--white);
     font-weight: 900 !important;
     letter-spacing: 1px;
 }
-
 
 .wide {
     letter-spacing: 4px;
@@ -54,4 +57,13 @@ b {
     margin: 0 auto;
     height: 100%;
     padding: 100px 0px;
+}
+
+#contact {
+    color: var(--white);
+}
+
+#contact > .dot {
+    color: var(--white);
+    margin: 0px 10px;
 }

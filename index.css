@@ -1,36 +1,14 @@
 :root {
     --white: #ffffff;
-    --white-dark: #e6e6e6c9;
-    --black: #101115;
-    --purple: #8a36f8;
+    --black: #3b3b3b;
+    --blue: #3449ff;
 }
 
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--black);
-    font-family: 'Roboto', sans-serif;
-    color: var(--white-dark);
-}
-
-a {
-    color: var(--white);
-}
-
-h1 {
-    color: var(--white);
-    font-weight: 900 !important;
-    letter-spacing: 1px;
-}
-
-.wide {
-    letter-spacing: 4px;
-    color: var(--purple);
-}
-
-.dot {
-    margin: 0px 7px;
-    color: var(--purple);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--black);
 }
 
 .section {
@@ -38,32 +16,20 @@ h1 {
 }
 
 .section > h3 {
-    text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 1px;
-    color: var(--white);
 }
 
-a { text-decoration: none; }
+b { font-weight: 400; }
 
-b {
-    font-weight: 400;
-    color: var(--white);
+a {
+    color: var(--blue);
+    text-decoration: none;
 }
 
-.hero {
-    max-width: 700px;
+#container {
+    max-width: 600px;
     width: 80%;
     margin: 0 auto;
     height: 100%;
     padding: 100px 0px;
-}
-
-#contact {
-    color: var(--white);
-}
-
-#contact > .dot {
-    color: var(--white);
-    margin: 0px 10px;
 }

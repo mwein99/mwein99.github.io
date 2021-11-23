@@ -19,7 +19,7 @@ html, body {
     font-weight: 500;
 }
 
-b { font-weight: 400; }
+b { font-weight: 500; }
 
 a {
     color: var(--blue);

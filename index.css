@@ -1,6 +1,7 @@
 :root {
     --white: #ffffff;
-    --black: #3b3b3b;
+    --gray: #575757;
+    --black: #131313;
     --blue: #3449ff;
 }
 
@@ -8,7 +9,12 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Inter";
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--gray);
+}
+
+h2 {
+    color: var(--white);
 }
 
 .section {
@@ -17,6 +23,7 @@ html, body {
 
 .section > h3 {
     font-weight: 500;
+    color: var(--white);
 }
 
 b { font-weight: 500; }

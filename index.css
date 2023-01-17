@@ -1,20 +1,13 @@
-:root {
-    --white: #ffffff;
-    --gray: #575757;
-    --black: #131313;
-    --blue: #3449ff;
-}
-
 html, body {
     margin: 0;
     padding: 0;
     font-family: "Inter";
-    background-color: var(--black);
-    color: var(--gray);
+    background-color: black;
+    color: #545e70
 }
 
 h2 {
-    color: var(--white);
+    color: #ffffff
 }
 
 .section {
@@ -23,7 +16,7 @@ h2 {
 
 .section > h3 {
     font-weight: 500;
-    color: var(--white);
+    color: #ffffff;
 }
 
 b { font-weight: 500; }

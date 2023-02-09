@@ -28,6 +28,7 @@ span.bold-link {
 
 a {
     text-decoration: none;
+    color: #545e70;
 }
 
 a.highlighted {

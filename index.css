@@ -39,7 +39,7 @@ a.highlighted {
     padding: 0px 3px;
 }
 
-a.highlighted:hover {
+a:hover {
     color: black;
     background-color: rgb(226, 232, 49)  ;
 }

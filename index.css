@@ -19,11 +19,28 @@ h2 {
     color: #ffffff;
 }
 
-b { font-weight: 500; }
+span.bold-link {
+    color: white;
+    font-weight: 500;
+    background-color: rgb(176, 49, 232);
+    padding: 0px 3px;
+}
 
 a {
-    color: var(--blue);
     text-decoration: none;
+}
+
+a.highlighted {
+    color: white;
+    font-weight: 500;
+    background-color: rgb(176, 49, 232);
+    transition: 0.3s all;
+    padding: 0px 3px;
+}
+
+a.highlighted:hover {
+    color: black;
+    background-color: rgb(226, 232, 49)  ;
 }
 
 #container {

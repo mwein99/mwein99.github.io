@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     font-family: "Inter";
     background-color: black;
-    color: #545e70
+    color: #728099
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #545e70;
+    color: #728099;
     transition: 0.3s all;
     text-decoration: underline;
     text-decoration-color: rgb(186, 49, 232);
